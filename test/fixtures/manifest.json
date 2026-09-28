@@ -1,0 +1,2300 @@
+{
+  "cases": [
+    {
+      "name": "d32_scale2",
+      "file": "d32_scale2.arrow",
+      "precision": 9,
+      "scale": 2,
+      "bitWidth": 32,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-39309796",
+          "expected": "-393097.96",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "39309796",
+          "expected": "393097.96",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-82591289",
+          "expected": "-825912.89",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "82591289",
+          "expected": "825912.89",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-103480379",
+          "expected": "-1034803.79",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "103480379",
+          "expected": "1034803.79",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-129512554",
+          "expected": "-1295125.54",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "129512554",
+          "expected": "1295125.54",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-188551188",
+          "expected": "-1885511.88",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "188551188",
+          "expected": "1885511.88",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-254600589",
+          "expected": "-2546005.89",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "254600589",
+          "expected": "2546005.89",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-380421987",
+          "expected": "-3804219.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "380421987",
+          "expected": "3804219.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-433038640",
+          "expected": "-4330386.40",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "433038640",
+          "expected": "4330386.40",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-452932313",
+          "expected": "-4529323.13",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "452932313",
+          "expected": "4529323.13",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-580704698",
+          "expected": "-5807046.98",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "580704698",
+          "expected": "5807046.98",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-601552921",
+          "expected": "-6015529.21",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "601552921",
+          "expected": "6015529.21",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-840317593",
+          "expected": "-8403175.93",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "840317593",
+          "expected": "8403175.93",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-999999999",
+          "expected": "-9999999.99",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "999999999",
+          "expected": "9999999.99",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d32_scale0",
+      "file": "d32_scale0.arrow",
+      "precision": 9,
+      "scale": 0,
+      "bitWidth": 32,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-301859400",
+          "expected": "-301859400",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "301859400",
+          "expected": "301859400",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-423671886",
+          "expected": "-423671886",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "423671886",
+          "expected": "423671886",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-514480276",
+          "expected": "-514480276",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "514480276",
+          "expected": "514480276",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-603369176",
+          "expected": "-603369176",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "603369176",
+          "expected": "603369176",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-627414694",
+          "expected": "-627414694",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "627414694",
+          "expected": "627414694",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-659992989",
+          "expected": "-659992989",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "659992989",
+          "expected": "659992989",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-727955324",
+          "expected": "-727955324",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "727955324",
+          "expected": "727955324",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-736955172",
+          "expected": "-736955172",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "736955172",
+          "expected": "736955172",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-819263617",
+          "expected": "-819263617",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "819263617",
+          "expected": "819263617",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-952214667",
+          "expected": "-952214667",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "952214667",
+          "expected": "952214667",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-986696160",
+          "expected": "-986696160",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "986696160",
+          "expected": "986696160",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-990878917",
+          "expected": "-990878917",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "990878917",
+          "expected": "990878917",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-999999999",
+          "expected": "-999999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "999999999",
+          "expected": "999999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d32_maxprecision",
+      "file": "d32_maxprecision.arrow",
+      "precision": 9,
+      "scale": 6,
+      "bitWidth": 32,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.000000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-46501077",
+          "expected": "-46.501077",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "46501077",
+          "expected": "46.501077",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-164916901",
+          "expected": "-164.916901",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "164916901",
+          "expected": "164.916901",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-184538280",
+          "expected": "-184.538280",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "184538280",
+          "expected": "184.538280",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-235216182",
+          "expected": "-235.216182",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "235216182",
+          "expected": "235.216182",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-274666807",
+          "expected": "-274.666807",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "274666807",
+          "expected": "274.666807",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-296885768",
+          "expected": "-296.885768",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "296885768",
+          "expected": "296.885768",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-346820843",
+          "expected": "-346.820843",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "346820843",
+          "expected": "346.820843",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-391054849",
+          "expected": "-391.054849",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "391054849",
+          "expected": "391.054849",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-490808921",
+          "expected": "-490.808921",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "490808921",
+          "expected": "490.808921",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-618354736",
+          "expected": "-618.354736",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "618354736",
+          "expected": "618.354736",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-713447845",
+          "expected": "-713.447845",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "713447845",
+          "expected": "713.447845",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-824416801",
+          "expected": "-824.416801",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "824416801",
+          "expected": "824.416801",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-999999999",
+          "expected": "-999.999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "999999999",
+          "expected": "999.999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d64_scale2",
+      "file": "d64_scale2.arrow",
+      "precision": 10,
+      "scale": 2,
+      "bitWidth": 64,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-987465853",
+          "expected": "-9874658.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "987465853",
+          "expected": "9874658.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2661151879",
+          "expected": "-26611518.79",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2661151879",
+          "expected": "26611518.79",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2833958380",
+          "expected": "-28339583.80",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2833958380",
+          "expected": "28339583.80",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3908971648",
+          "expected": "-39089716.48",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3908971648",
+          "expected": "39089716.48",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5028881694",
+          "expected": "-50288816.94",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5028881694",
+          "expected": "50288816.94",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5504890128",
+          "expected": "-55048901.28",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5504890128",
+          "expected": "55048901.28",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5968429039",
+          "expected": "-59684290.39",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5968429039",
+          "expected": "59684290.39",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7013918532",
+          "expected": "-70139185.32",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7013918532",
+          "expected": "70139185.32",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7029275897",
+          "expected": "-70292758.97",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7029275897",
+          "expected": "70292758.97",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7787995748",
+          "expected": "-77879957.48",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7787995748",
+          "expected": "77879957.48",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7928498495",
+          "expected": "-79284984.95",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7928498495",
+          "expected": "79284984.95",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9579949118",
+          "expected": "-95799491.18",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9579949118",
+          "expected": "95799491.18",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-99999999.99",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "99999999.99",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d64_scale0",
+      "file": "d64_scale0.arrow",
+      "precision": 10,
+      "scale": 0,
+      "bitWidth": 64,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-154240605",
+          "expected": "-154240605",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "154240605",
+          "expected": "154240605",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-220736805",
+          "expected": "-220736805",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "220736805",
+          "expected": "220736805",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-593579572",
+          "expected": "-593579572",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "593579572",
+          "expected": "593579572",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-899083687",
+          "expected": "-899083687",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "899083687",
+          "expected": "899083687",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2708830523",
+          "expected": "-2708830523",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2708830523",
+          "expected": "2708830523",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3397736310",
+          "expected": "-3397736310",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3397736310",
+          "expected": "3397736310",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4434156137",
+          "expected": "-4434156137",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4434156137",
+          "expected": "4434156137",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5218626853",
+          "expected": "-5218626853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5218626853",
+          "expected": "5218626853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5637804359",
+          "expected": "-5637804359",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5637804359",
+          "expected": "5637804359",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-6281481680",
+          "expected": "-6281481680",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "6281481680",
+          "expected": "6281481680",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8301899636",
+          "expected": "-8301899636",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8301899636",
+          "expected": "8301899636",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8758028615",
+          "expected": "-8758028615",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8758028615",
+          "expected": "8758028615",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-9999999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "9999999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d64_maxprecision",
+      "file": "d64_maxprecision.arrow",
+      "precision": 18,
+      "scale": 6,
+      "bitWidth": 64,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.000000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-176101553298342444",
+          "expected": "-176101553298.342444",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "176101553298342444",
+          "expected": "176101553298.342444",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-300646887875209544",
+          "expected": "-300646887875.209544",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "300646887875209544",
+          "expected": "300646887875.209544",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-357093616212301973",
+          "expected": "-357093616212.301973",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "357093616212301973",
+          "expected": "357093616212.301973",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-400563893103642656",
+          "expected": "-400563893103.642656",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "400563893103642656",
+          "expected": "400563893103.642656",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-417875192219522756",
+          "expected": "-417875192219.522756",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "417875192219522756",
+          "expected": "417875192219.522756",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-552633340936369917",
+          "expected": "-552633340936.369917",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "552633340936369917",
+          "expected": "552633340936.369917",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-621549455350794731",
+          "expected": "-621549455350.794731",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "621549455350794731",
+          "expected": "621549455350.794731",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-677187909562847628",
+          "expected": "-677187909562.847628",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "677187909562847628",
+          "expected": "677187909562.847628",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-752694752812973462",
+          "expected": "-752694752812.973462",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "752694752812973462",
+          "expected": "752694752812.973462",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-807550214144488667",
+          "expected": "-807550214144.488667",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "807550214144488667",
+          "expected": "807550214144.488667",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-865779682889490280",
+          "expected": "-865779682889.490280",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "865779682889490280",
+          "expected": "865779682889.490280",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-943908784282289869",
+          "expected": "-943908784282.289869",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "943908784282289869",
+          "expected": "943908784282.289869",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-999999999999999999",
+          "expected": "-999999999999.999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "999999999999999999",
+          "expected": "999999999999.999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d128_scale2",
+      "file": "d128_scale2.arrow",
+      "precision": 10,
+      "scale": 2,
+      "bitWidth": 128,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-44828330",
+          "expected": "-448283.30",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "44828330",
+          "expected": "448283.30",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1947719453",
+          "expected": "-19477194.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1947719453",
+          "expected": "19477194.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2525220744",
+          "expected": "-25252207.44",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2525220744",
+          "expected": "25252207.44",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3748683192",
+          "expected": "-37486831.92",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3748683192",
+          "expected": "37486831.92",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4485553953",
+          "expected": "-44855539.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4485553953",
+          "expected": "44855539.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5055273145",
+          "expected": "-50552731.45",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5055273145",
+          "expected": "50552731.45",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5640822707",
+          "expected": "-56408227.07",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5640822707",
+          "expected": "56408227.07",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5830543295",
+          "expected": "-58305432.95",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5830543295",
+          "expected": "58305432.95",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7188982700",
+          "expected": "-71889827.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7188982700",
+          "expected": "71889827.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7426001687",
+          "expected": "-74260016.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7426001687",
+          "expected": "74260016.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8578333883",
+          "expected": "-85783338.83",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8578333883",
+          "expected": "85783338.83",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9840272055",
+          "expected": "-98402720.55",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9840272055",
+          "expected": "98402720.55",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-99999999.99",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "99999999.99",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d128_scale0",
+      "file": "d128_scale0.arrow",
+      "precision": 10,
+      "scale": 0,
+      "bitWidth": 128,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1184014364",
+          "expected": "-1184014364",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1184014364",
+          "expected": "1184014364",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1221805458",
+          "expected": "-1221805458",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1221805458",
+          "expected": "1221805458",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1693971567",
+          "expected": "-1693971567",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1693971567",
+          "expected": "1693971567",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2415993081",
+          "expected": "-2415993081",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2415993081",
+          "expected": "2415993081",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3717756999",
+          "expected": "-3717756999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3717756999",
+          "expected": "3717756999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4508463000",
+          "expected": "-4508463000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4508463000",
+          "expected": "4508463000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4621484398",
+          "expected": "-4621484398",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4621484398",
+          "expected": "4621484398",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7492558217",
+          "expected": "-7492558217",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7492558217",
+          "expected": "7492558217",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7581857375",
+          "expected": "-7581857375",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7581857375",
+          "expected": "7581857375",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7582811658",
+          "expected": "-7582811658",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7582811658",
+          "expected": "7582811658",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8151335302",
+          "expected": "-8151335302",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8151335302",
+          "expected": "8151335302",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8413456903",
+          "expected": "-8413456903",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8413456903",
+          "expected": "8413456903",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-9999999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "9999999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d128_maxprecision",
+      "file": "d128_maxprecision.arrow",
+      "precision": 38,
+      "scale": 6,
+      "bitWidth": 128,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.000000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1393792995920550690134705492743746060",
+          "expected": "-1393792995920550690134705492743.746060",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1393792995920550690134705492743746060",
+          "expected": "1393792995920550690134705492743.746060",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8373804277145307115078544867176649401",
+          "expected": "-8373804277145307115078544867176.649401",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8373804277145307115078544867176649401",
+          "expected": "8373804277145307115078544867176.649401",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-12301829116135657249642936592701199885",
+          "expected": "-12301829116135657249642936592701.199885",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "12301829116135657249642936592701199885",
+          "expected": "12301829116135657249642936592701.199885",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-18088419299017312472410062923450031365",
+          "expected": "-18088419299017312472410062923450.031365",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "18088419299017312472410062923450031365",
+          "expected": "18088419299017312472410062923450.031365",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-23093902984345518594983433507547949371",
+          "expected": "-23093902984345518594983433507547.949371",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "23093902984345518594983433507547949371",
+          "expected": "23093902984345518594983433507547.949371",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-35511888981161429355689431815762227908",
+          "expected": "-35511888981161429355689431815762.227908",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "35511888981161429355689431815762227908",
+          "expected": "35511888981161429355689431815762.227908",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-51352483463504981046158669832914044975",
+          "expected": "-51352483463504981046158669832914.044975",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "51352483463504981046158669832914044975",
+          "expected": "51352483463504981046158669832914.044975",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-51512244788225374917461615985075635283",
+          "expected": "-51512244788225374917461615985075.635283",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "51512244788225374917461615985075635283",
+          "expected": "51512244788225374917461615985075.635283",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-59176175029238429271625900891358332990",
+          "expected": "-59176175029238429271625900891358.332990",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "59176175029238429271625900891358332990",
+          "expected": "59176175029238429271625900891358.332990",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-63531478607532355590694552863076412852",
+          "expected": "-63531478607532355590694552863076.412852",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "63531478607532355590694552863076412852",
+          "expected": "63531478607532355590694552863076.412852",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-79370590282333493953652864790346645981",
+          "expected": "-79370590282333493953652864790346.645981",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "79370590282333493953652864790346645981",
+          "expected": "79370590282333493953652864790346.645981",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-91485367423646562422759038082397708049",
+          "expected": "-91485367423646562422759038082397.708049",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "91485367423646562422759038082397708049",
+          "expected": "91485367423646562422759038082397.708049",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-99999999999999999999999999999999999999",
+          "expected": "-99999999999999999999999999999999.999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "99999999999999999999999999999999999999",
+          "expected": "99999999999999999999999999999999.999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d256_scale2",
+      "file": "d256_scale2.arrow",
+      "precision": 10,
+      "scale": 2,
+      "bitWidth": 256,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.01",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.05",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1721724253",
+          "expected": "-17217242.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1721724253",
+          "expected": "17217242.53",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3657009166",
+          "expected": "-36570091.66",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3657009166",
+          "expected": "36570091.66",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4842030608",
+          "expected": "-48420306.08",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4842030608",
+          "expected": "48420306.08",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4998755551",
+          "expected": "-49987555.51",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4998755551",
+          "expected": "49987555.51",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5744269900",
+          "expected": "-57442699.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5744269900",
+          "expected": "57442699.00",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5813740319",
+          "expected": "-58137403.19",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5813740319",
+          "expected": "58137403.19",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-6602290242",
+          "expected": "-66022902.42",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "6602290242",
+          "expected": "66022902.42",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7106788087",
+          "expected": "-71067880.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7106788087",
+          "expected": "71067880.87",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7712437339",
+          "expected": "-77124373.39",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7712437339",
+          "expected": "77124373.39",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7763977467",
+          "expected": "-77639774.67",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7763977467",
+          "expected": "77639774.67",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9321544781",
+          "expected": "-93215447.81",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9321544781",
+          "expected": "93215447.81",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9787807823",
+          "expected": "-97878078.23",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9787807823",
+          "expected": "97878078.23",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-99999999.99",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "99999999.99",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d256_scale0",
+      "file": "d256_scale0.arrow",
+      "precision": 10,
+      "scale": 0,
+      "bitWidth": 256,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "1",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "5",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1438324224",
+          "expected": "-1438324224",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1438324224",
+          "expected": "1438324224",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1734590928",
+          "expected": "-1734590928",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1734590928",
+          "expected": "1734590928",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2607285134",
+          "expected": "-2607285134",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2607285134",
+          "expected": "2607285134",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2839464721",
+          "expected": "-2839464721",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2839464721",
+          "expected": "2839464721",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4203499360",
+          "expected": "-4203499360",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4203499360",
+          "expected": "4203499360",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4759646985",
+          "expected": "-4759646985",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4759646985",
+          "expected": "4759646985",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5422282882",
+          "expected": "-5422282882",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5422282882",
+          "expected": "5422282882",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-6285499819",
+          "expected": "-6285499819",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "6285499819",
+          "expected": "6285499819",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7475567542",
+          "expected": "-7475567542",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7475567542",
+          "expected": "7475567542",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8402974534",
+          "expected": "-8402974534",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8402974534",
+          "expected": "8402974534",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-8856724712",
+          "expected": "-8856724712",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "8856724712",
+          "expected": "8856724712",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9080769850",
+          "expected": "-9080769850",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9080769850",
+          "expected": "9080769850",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-9999999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "9999999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "d256_maxprecision",
+      "file": "d256_maxprecision.arrow",
+      "precision": 76,
+      "scale": 6,
+      "bitWidth": 256,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.000000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-464697675646145183612268932194380650979712093826289611441134906200892131043",
+          "expected": "-464697675646145183612268932194380650979712093826289611441134906200892.131043",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "464697675646145183612268932194380650979712093826289611441134906200892131043",
+          "expected": "464697675646145183612268932194380650979712093826289611441134906200892.131043",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-485923362400876767836953691749044849324869528911547191838366293764371359853",
+          "expected": "-485923362400876767836953691749044849324869528911547191838366293764371.359853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "485923362400876767836953691749044849324869528911547191838366293764371359853",
+          "expected": "485923362400876767836953691749044849324869528911547191838366293764371.359853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3768772538686074256181715582567406371436865955168977838035913402930966968791",
+          "expected": "-3768772538686074256181715582567406371436865955168977838035913402930966.968791",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3768772538686074256181715582567406371436865955168977838035913402930966968791",
+          "expected": "3768772538686074256181715582567406371436865955168977838035913402930966.968791",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5206820019561457405520715002986377782789097622892420354302351073886439706964",
+          "expected": "-5206820019561457405520715002986377782789097622892420354302351073886439.706964",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5206820019561457405520715002986377782789097622892420354302351073886439706964",
+          "expected": "5206820019561457405520715002986377782789097622892420354302351073886439.706964",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5285707088421794738523395912970945204410301232800637600669044254507269164853",
+          "expected": "-5285707088421794738523395912970945204410301232800637600669044254507269.164853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5285707088421794738523395912970945204410301232800637600669044254507269164853",
+          "expected": "5285707088421794738523395912970945204410301232800637600669044254507269.164853",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-6080609927765259346756183644369222825886236782993972392712056167751160156040",
+          "expected": "-6080609927765259346756183644369222825886236782993972392712056167751160.156040",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "6080609927765259346756183644369222825886236782993972392712056167751160156040",
+          "expected": "6080609927765259346756183644369222825886236782993972392712056167751160.156040",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7139234411735414550312029871970391685723460924331434537143277515446865520175",
+          "expected": "-7139234411735414550312029871970391685723460924331434537143277515446865.520175",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7139234411735414550312029871970391685723460924331434537143277515446865520175",
+          "expected": "7139234411735414550312029871970391685723460924331434537143277515446865.520175",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7164230441548502920834944051552106939646465438413788532195890024989705015615",
+          "expected": "-7164230441548502920834944051552106939646465438413788532195890024989705.015615",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7164230441548502920834944051552106939646465438413788532195890024989705015615",
+          "expected": "7164230441548502920834944051552106939646465438413788532195890024989705.015615",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7226551797155099570592865711297540126719961817905890890629903379442494871529",
+          "expected": "-7226551797155099570592865711297540126719961817905890890629903379442494.871529",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7226551797155099570592865711297540126719961817905890890629903379442494871529",
+          "expected": "7226551797155099570592865711297540126719961817905890890629903379442494.871529",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7322887334109785748819017923674747957040328819561254238948169294593700177859",
+          "expected": "-7322887334109785748819017923674747957040328819561254238948169294593700.177859",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7322887334109785748819017923674747957040328819561254238948169294593700177859",
+          "expected": "7322887334109785748819017923674747957040328819561254238948169294593700.177859",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-7758889595486196816394206743762151797591976850172017443492463103432719654058",
+          "expected": "-7758889595486196816394206743762151797591976850172017443492463103432719.654058",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "7758889595486196816394206743762151797591976850172017443492463103432719654058",
+          "expected": "7758889595486196816394206743762151797591976850172017443492463103432719.654058",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9467292687308982366114911543597996390010203161715085897153180733083682487603",
+          "expected": "-9467292687308982366114911543597996390010203161715085897153180733083682.487603",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9467292687308982366114911543597996390010203161715085897153180733083682487603",
+          "expected": "9467292687308982366114911543597996390010203161715085897153180733083682.487603",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "expected": "-9999999999999999999999999999999999999999999999999999999999999999999999.999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "expected": "9999999999999999999999999999999999999999999999999999999999999999999999.999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "leading_zeros",
+      "file": "leading_zeros.arrow",
+      "precision": 10,
+      "scale": 6,
+      "bitWidth": 128,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0.000000",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1",
+          "expected": "0.000001",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5",
+          "expected": "0.000005",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-865546517",
+          "expected": "-865.546517",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "865546517",
+          "expected": "865.546517",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1049896644",
+          "expected": "-1049.896644",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1049896644",
+          "expected": "1049.896644",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1316292547",
+          "expected": "-1316.292547",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1316292547",
+          "expected": "1316.292547",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1449739622",
+          "expected": "-1449.739622",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1449739622",
+          "expected": "1449.739622",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1965645097",
+          "expected": "-1965.645097",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1965645097",
+          "expected": "1965.645097",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-1991656151",
+          "expected": "-1991.656151",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "1991656151",
+          "expected": "1991.656151",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2453332400",
+          "expected": "-2453.332400",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2453332400",
+          "expected": "2453.332400",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-2596006332",
+          "expected": "-2596.006332",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "2596006332",
+          "expected": "2596.006332",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-3059702061",
+          "expected": "-3059.702061",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "3059702061",
+          "expected": "3059.702061",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-4374458085",
+          "expected": "-4374.458085",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "4374458085",
+          "expected": "4374.458085",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-5612256792",
+          "expected": "-5612.256792",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "5612256792",
+          "expected": "5612.256792",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-6558533914",
+          "expected": "-6558.533914",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "6558533914",
+          "expected": "6558.533914",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "-9999999999",
+          "expected": "-9999.999999",
+          "checkMode": "string"
+        },
+        {
+          "unscaled": "9999999999",
+          "expected": "9999.999999",
+          "checkMode": "string"
+        }
+      ]
+    },
+    {
+      "name": "negative_scale",
+      "file": "negative_scale.arrow",
+      "precision": 6,
+      "scale": -2,
+      "bitWidth": 128,
+      "rows": [
+        {
+          "unscaled": "0",
+          "expected": "0E+2",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-1",
+          "expected": "-1E+2",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "1",
+          "expected": "1E+2",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-5",
+          "expected": "-5E+2",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "5",
+          "expected": "5E+2",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-28694",
+          "expected": "-2.8694E+6",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "28694",
+          "expected": "2.8694E+6",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-109058",
+          "expected": "-1.09058E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "109058",
+          "expected": "1.09058E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-172793",
+          "expected": "-1.72793E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "172793",
+          "expected": "1.72793E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-312760",
+          "expected": "-3.12760E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "312760",
+          "expected": "3.12760E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-475759",
+          "expected": "-4.75759E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "475759",
+          "expected": "4.75759E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-560043",
+          "expected": "-5.60043E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "560043",
+          "expected": "5.60043E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-571606",
+          "expected": "-5.71606E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "571606",
+          "expected": "5.71606E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-590879",
+          "expected": "-5.90879E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "590879",
+          "expected": "5.90879E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-686463",
+          "expected": "-6.86463E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "686463",
+          "expected": "6.86463E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-808638",
+          "expected": "-8.08638E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "808638",
+          "expected": "8.08638E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-845397",
+          "expected": "-8.45397E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "845397",
+          "expected": "8.45397E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-866590",
+          "expected": "-8.66590E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "866590",
+          "expected": "8.66590E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "-999999",
+          "expected": "-9.99999E+7",
+          "checkMode": "numeric"
+        },
+        {
+          "unscaled": "999999",
+          "expected": "9.99999E+7",
+          "checkMode": "numeric"
+        }
+      ]
+    }
+  ]
+}

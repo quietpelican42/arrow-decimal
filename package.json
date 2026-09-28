@@ -1,0 +1,52 @@
+{
+  "name": "arrow-decimal",
+  "version": "0.1.0",
+  "description": "Read apache-arrow Decimal values correctly scaled, at every bitWidth",
+  "keywords": [
+    "apache-arrow",
+    "arrow",
+    "decimal",
+    "decimal128",
+    "decimal256",
+    "bignum",
+    "parquet"
+  ],
+  "license": "MIT",
+  "author": "__AUTHOR__",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/__GH_OWNER__/arrow-decimal.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "demo": "node examples/compare.ts",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build && npm run test:dist",
+    "test:dist": "node --test test/smoke.mjs"
+  },
+  "peerDependencies": {
+    "apache-arrow": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "apache-arrow": "^21.2.0",
+    "parquet-wasm": "^0.9.0",
+    "typescript": "^5.7.0"
+  }
+}
